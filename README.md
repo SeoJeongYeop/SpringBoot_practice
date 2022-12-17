@@ -35,6 +35,9 @@ java -jar ./build/libs/skku-spring-boot-a1-0.0.1-SNAPSHOT.jar
 localhost의 8080포트에 서버를 열어서 다음 링크에서 Hello world가 출력되면 성공입니다.
 - http://localhost:8080/hello 
 curl 명령어로 확인하면 다음과 같습니다.
+```cmd
+curl -X GET http://localhost:8080/hello
+```
 ![curl](https://user-images.githubusercontent.com/41911523/208238922-737e31a8-87a2-46ee-a0f4-e6810bcdffcf.PNG)
 
 ### 4. 서버 종료
